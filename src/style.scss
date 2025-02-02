@@ -2,7 +2,17 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+.linkerRout{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
 
+}
+a{
+  font-size: 35px;
+  color: #60758a;
+  text-decoration: none;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #242424;
