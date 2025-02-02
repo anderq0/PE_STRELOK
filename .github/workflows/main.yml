@@ -35,7 +35,7 @@ jobs:
         run: npm run build
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact for Pages deployment
-        uses: actions/upload-artifact@v4  # Обновленная версия
+        uses: actions/upload-artifact@v4
         with:
           name: website
           path: ./dist
